@@ -18,6 +18,7 @@
 		D207283023AFA4A4003E2AB3 /* TableRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207282F23AFA4A4003E2AB3 /* TableRxTests.swift */; };
 		D207283B23AFA4A4003E2AB3 /* TableRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207283A23AFA4A4003E2AB3 /* TableRxUITests.swift */; };
 		D28ACF3925060CDB0057D5F2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3825060CDB0057D5F2 /* ViewController2.swift */; };
+		D28ACF3B250658D00057D5F2 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3A250658D00057D5F2 /* ViewController3.swift */; };
 		F42BF902D0A9E3EA94F18AB1 /* Pods_TableRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C09021F5B8C2C88B6CF6BA /* Pods_TableRxTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		D207283A23AFA4A4003E2AB3 /* TableRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRxUITests.swift; sourceTree = "<group>"; };
 		D207283C23AFA4A4003E2AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D28ACF3825060CDB0057D5F2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D28ACF3A250658D00057D5F2 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		E0B4973BF87F8D4A8022BADE /* Pods-TableRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRxTests.debug.xcconfig"; path = "Target Support Files/Pods-TableRxTests/Pods-TableRxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F34CEEEAEC808579F667955F /* Pods-TableRx-TableRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRx-TableRxUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableRx-TableRxUITests/Pods-TableRx-TableRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 				D207281A23AFA49F003E2AB3 /* SceneDelegate.swift */,
 				D207281C23AFA49F003E2AB3 /* ViewController.swift */,
 				D28ACF3825060CDB0057D5F2 /* ViewController2.swift */,
+				D28ACF3A250658D00057D5F2 /* ViewController3.swift */,
 				D207281E23AFA49F003E2AB3 /* Main.storyboard */,
 				D207282123AFA4A3003E2AB3 /* Assets.xcassets */,
 				D207282323AFA4A3003E2AB3 /* LaunchScreen.storyboard */,
@@ -410,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28ACF3B250658D00057D5F2 /* ViewController3.swift in Sources */,
 				D207281D23AFA49F003E2AB3 /* ViewController.swift in Sources */,
 				D28ACF3925060CDB0057D5F2 /* ViewController2.swift in Sources */,
 				D207281923AFA49F003E2AB3 /* AppDelegate.swift in Sources */,
