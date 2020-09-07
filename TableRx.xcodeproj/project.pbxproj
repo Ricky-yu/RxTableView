@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		D207282523AFA4A3003E2AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D207282323AFA4A3003E2AB3 /* LaunchScreen.storyboard */; };
 		D207283023AFA4A4003E2AB3 /* TableRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207282F23AFA4A4003E2AB3 /* TableRxTests.swift */; };
 		D207283B23AFA4A4003E2AB3 /* TableRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207283A23AFA4A4003E2AB3 /* TableRxUITests.swift */; };
+		D28ACF3925060CDB0057D5F2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3825060CDB0057D5F2 /* ViewController2.swift */; };
 		F42BF902D0A9E3EA94F18AB1 /* Pods_TableRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C09021F5B8C2C88B6CF6BA /* Pods_TableRxTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		D207283623AFA4A4003E2AB3 /* TableRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D207283A23AFA4A4003E2AB3 /* TableRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRxUITests.swift; sourceTree = "<group>"; };
 		D207283C23AFA4A4003E2AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28ACF3825060CDB0057D5F2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		E0B4973BF87F8D4A8022BADE /* Pods-TableRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRxTests.debug.xcconfig"; path = "Target Support Files/Pods-TableRxTests/Pods-TableRxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F34CEEEAEC808579F667955F /* Pods-TableRx-TableRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRx-TableRxUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableRx-TableRxUITests/Pods-TableRx-TableRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +113,6 @@
 				E0B4973BF87F8D4A8022BADE /* Pods-TableRxTests.debug.xcconfig */,
 				45F360EE3D4964D9CEC4CB66 /* Pods-TableRxTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				D207281823AFA49F003E2AB3 /* AppDelegate.swift */,
 				D207281A23AFA49F003E2AB3 /* SceneDelegate.swift */,
 				D207281C23AFA49F003E2AB3 /* ViewController.swift */,
+				D28ACF3825060CDB0057D5F2 /* ViewController2.swift */,
 				D207281E23AFA49F003E2AB3 /* Main.storyboard */,
 				D207282123AFA4A3003E2AB3 /* Assets.xcassets */,
 				D207282323AFA4A3003E2AB3 /* LaunchScreen.storyboard */,
@@ -409,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D207281D23AFA49F003E2AB3 /* ViewController.swift in Sources */,
+				D28ACF3925060CDB0057D5F2 /* ViewController2.swift in Sources */,
 				D207281923AFA49F003E2AB3 /* AppDelegate.swift in Sources */,
 				D207281B23AFA49F003E2AB3 /* SceneDelegate.swift in Sources */,
 			);
