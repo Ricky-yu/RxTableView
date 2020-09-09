@@ -19,6 +19,10 @@
 		D207283B23AFA4A4003E2AB3 /* TableRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207283A23AFA4A4003E2AB3 /* TableRxUITests.swift */; };
 		D28ACF3925060CDB0057D5F2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3825060CDB0057D5F2 /* ViewController2.swift */; };
 		D28ACF3B250658D00057D5F2 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3A250658D00057D5F2 /* ViewController3.swift */; };
+		D28ACF3D2508FF290057D5F2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3C2508FF290057D5F2 /* TableViewController.swift */; };
+		D28ACF3F2508FF6F0057D5F2 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF3E2508FF6F0057D5F2 /* TableViewModel.swift */; };
+		D28ACF43250910CF0057D5F2 /* RamenShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ACF42250910CF0057D5F2 /* RamenShop.swift */; };
+		D28ACF46250918C10057D5F2 /* Noodles.tsv in Resources */ = {isa = PBXBuildFile; fileRef = D28ACF45250918C10057D5F2 /* Noodles.tsv */; };
 		F42BF902D0A9E3EA94F18AB1 /* Pods_TableRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C09021F5B8C2C88B6CF6BA /* Pods_TableRxTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		D207283C23AFA4A4003E2AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D28ACF3825060CDB0057D5F2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		D28ACF3A250658D00057D5F2 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		D28ACF3C2508FF290057D5F2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D28ACF3E2508FF6F0057D5F2 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		D28ACF42250910CF0057D5F2 /* RamenShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenShop.swift; sourceTree = "<group>"; };
+		D28ACF45250918C10057D5F2 /* Noodles.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Noodles.tsv; path = ../../../Downloads/Noodles.tsv; sourceTree = "<group>"; };
 		E0B4973BF87F8D4A8022BADE /* Pods-TableRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRxTests.debug.xcconfig"; path = "Target Support Files/Pods-TableRxTests/Pods-TableRxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F34CEEEAEC808579F667955F /* Pods-TableRx-TableRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRx-TableRxUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableRx-TableRxUITests/Pods-TableRx-TableRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +129,7 @@
 		D207280C23AFA49F003E2AB3 = {
 			isa = PBXGroup;
 			children = (
+				D28ACF45250918C10057D5F2 /* Noodles.tsv */,
 				D207281723AFA49F003E2AB3 /* TableRx */,
 				D207282E23AFA4A4003E2AB3 /* TableRxTests */,
 				D207283923AFA4A4003E2AB3 /* TableRxUITests */,
@@ -152,6 +161,9 @@
 				D207282123AFA4A3003E2AB3 /* Assets.xcassets */,
 				D207282323AFA4A3003E2AB3 /* LaunchScreen.storyboard */,
 				D207282623AFA4A3003E2AB3 /* Info.plist */,
+				D28ACF3C2508FF290057D5F2 /* TableViewController.swift */,
+				D28ACF3E2508FF6F0057D5F2 /* TableViewModel.swift */,
+				D28ACF42250910CF0057D5F2 /* RamenShop.swift */,
 			);
 			path = TableRx;
 			sourceTree = "<group>";
@@ -285,6 +297,7 @@
 			files = (
 				D207282523AFA4A3003E2AB3 /* LaunchScreen.storyboard in Resources */,
 				D207282223AFA4A3003E2AB3 /* Assets.xcassets in Resources */,
+				D28ACF46250918C10057D5F2 /* Noodles.tsv in Resources */,
 				D207282023AFA49F003E2AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,10 +427,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28ACF3B250658D00057D5F2 /* ViewController3.swift in Sources */,
+				D28ACF3F2508FF6F0057D5F2 /* TableViewModel.swift in Sources */,
+				D28ACF3D2508FF290057D5F2 /* TableViewController.swift in Sources */,
 				D207281D23AFA49F003E2AB3 /* ViewController.swift in Sources */,
 				D28ACF3925060CDB0057D5F2 /* ViewController2.swift in Sources */,
 				D207281923AFA49F003E2AB3 /* AppDelegate.swift in Sources */,
 				D207281B23AFA49F003E2AB3 /* SceneDelegate.swift in Sources */,
+				D28ACF43250910CF0057D5F2 /* RamenShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
